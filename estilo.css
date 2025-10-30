@@ -1,0 +1,26 @@
+
+body{
+    font-family: sans-serif;
+    padding:20px ;
+}
+
+.imagem-hall{
+    width: 500px;
+}
+
+.conteudo{
+    display: flex;
+}
+
+@media(max-width: 800px){
+    .texto-conteudo{
+        min-width: 400px;
+    }
+    .conteudo{
+        flex-direction: column;
+        text-align: center;
+    }
+    .tituloprincipal{
+        font-size: 2rem;
+    }
+}
